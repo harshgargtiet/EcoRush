@@ -6101,19 +6101,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\shaur\\.nuget\\packages\\": {}
+    "/Users/saimahesh/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\My Stuff\\Shell\\Proj_EcoRush\\C#2\\Proj_Ecorush\\Proj_Ecorush.csproj",
+      "projectUniqueName": "/Users/saimahesh/RiderProjects/EcoRush/K-rageDITZ/C#2/Proj_Ecorush/Proj_Ecorush.csproj",
       "projectName": "Proj_Ecorush",
-      "projectPath": "D:\\My Stuff\\Shell\\Proj_EcoRush\\C#2\\Proj_Ecorush\\Proj_Ecorush.csproj",
-      "packagesPath": "C:\\Users\\shaur\\.nuget\\packages\\",
-      "outputPath": "D:\\My Stuff\\Shell\\Proj_EcoRush\\C#2\\Proj_Ecorush\\obj\\",
+      "projectPath": "/Users/saimahesh/RiderProjects/EcoRush/K-rageDITZ/C#2/Proj_Ecorush/Proj_Ecorush.csproj",
+      "packagesPath": "/Users/saimahesh/.nuget/packages/",
+      "outputPath": "/Users/saimahesh/RiderProjects/EcoRush/K-rageDITZ/C#2/Proj_Ecorush/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\shaur\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/saimahesh/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -6189,7 +6189,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
       }
     }
   }
