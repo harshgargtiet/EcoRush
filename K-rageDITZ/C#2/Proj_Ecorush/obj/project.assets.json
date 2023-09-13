@@ -6101,24 +6101,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\shaur\\.nuget\\packages\\": {}
+    "C:\\Users\\vmuser\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\My Stuff\\Shell\\Proj_EcoRush\\C#2\\Proj_Ecorush\\Proj_Ecorush.csproj",
+      "projectUniqueName": "C:\\Users\\vmuser\\Desktop\\SE Shell\\EcoRush\\EcoRush\\K-rageDITZ\\C#2\\Proj_Ecorush\\Proj_Ecorush.csproj",
       "projectName": "Proj_Ecorush",
-      "projectPath": "D:\\My Stuff\\Shell\\Proj_EcoRush\\C#2\\Proj_Ecorush\\Proj_Ecorush.csproj",
-      "packagesPath": "C:\\Users\\shaur\\.nuget\\packages\\",
-      "outputPath": "D:\\My Stuff\\Shell\\Proj_EcoRush\\C#2\\Proj_Ecorush\\obj\\",
+      "projectPath": "C:\\Users\\vmuser\\Desktop\\SE Shell\\EcoRush\\EcoRush\\K-rageDITZ\\C#2\\Proj_Ecorush\\Proj_Ecorush.csproj",
+      "packagesPath": "C:\\Users\\vmuser\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vmuser\\Desktop\\SE Shell\\EcoRush\\EcoRush\\K-rageDITZ\\C#2\\Proj_Ecorush\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\shaur\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\vmuser\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
