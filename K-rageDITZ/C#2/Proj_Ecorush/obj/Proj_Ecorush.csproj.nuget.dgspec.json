@@ -1,50 +1,25 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "C:\\Users\\vmuser\\Desktop\\SE Shell\\EcoRush\\EcoRush\\K-rageDITZ\\C#2\\Proj_Ecorush\\Proj_Ecorush.csproj": {}
+    "/Users/saimahesh/Downloads/EcoTest/EcoRush/K-rageDITZ/C#2/Proj_Ecorush/Proj_Ecorush.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vmuser\\Desktop\\SE Shell\\EcoRush\\EcoRush\\K-rageDITZ\\C#2\\Proj_Ecorush\\Proj_Ecorush.csproj": {
+    "/Users/saimahesh/Downloads/EcoTest/EcoRush/K-rageDITZ/C#2/Proj_Ecorush/Proj_Ecorush.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vmuser\\Desktop\\SE Shell\\EcoRush\\EcoRush\\K-rageDITZ\\C#2\\Proj_Ecorush\\Proj_Ecorush.csproj",
+        "projectUniqueName": "/Users/saimahesh/Downloads/EcoTest/EcoRush/K-rageDITZ/C#2/Proj_Ecorush/Proj_Ecorush.csproj",
         "projectName": "Proj_Ecorush",
-        "projectPath": "C:\\Users\\vmuser\\Desktop\\SE Shell\\EcoRush\\EcoRush\\K-rageDITZ\\C#2\\Proj_Ecorush\\Proj_Ecorush.csproj",
-        "packagesPath": "C:\\Users\\vmuser\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vmuser\\Desktop\\SE Shell\\EcoRush\\EcoRush\\K-rageDITZ\\C#2\\Proj_Ecorush\\obj\\",
-=======
-    "/Users/saimahesh/RiderProjects/EcoRush/K-rageDITZ/C#2/Proj_Ecorush/Proj_Ecorush.csproj": {}
-  },
-  "projects": {
-    "/Users/saimahesh/RiderProjects/EcoRush/K-rageDITZ/C#2/Proj_Ecorush/Proj_Ecorush.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/Users/saimahesh/RiderProjects/EcoRush/K-rageDITZ/C#2/Proj_Ecorush/Proj_Ecorush.csproj",
-        "projectName": "Proj_Ecorush",
-        "projectPath": "/Users/saimahesh/RiderProjects/EcoRush/K-rageDITZ/C#2/Proj_Ecorush/Proj_Ecorush.csproj",
+        "projectPath": "/Users/saimahesh/Downloads/EcoTest/EcoRush/K-rageDITZ/C#2/Proj_Ecorush/Proj_Ecorush.csproj",
         "packagesPath": "/Users/saimahesh/.nuget/packages/",
-        "outputPath": "/Users/saimahesh/RiderProjects/EcoRush/K-rageDITZ/C#2/Proj_Ecorush/obj/",
->>>>>>> de7f96d34db6e186209990736cfd2e2f8ac08362
+        "outputPath": "/Users/saimahesh/Downloads/EcoTest/EcoRush/K-rageDITZ/C#2/Proj_Ecorush/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-<<<<<<< HEAD
-          "C:\\Users\\vmuser\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-=======
           "/Users/saimahesh/.nuget/NuGet/NuGet.Config"
->>>>>>> de7f96d34db6e186209990736cfd2e2f8ac08362
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

@@ -2,7 +2,7 @@
 using Proj_Ecorush.Models;
 using Proj_Ecorush.Services.Interfaces;
 
-namespace Proj_Ecorush.Services.Services
+namespace Proj_Ecorush.Services.ServiceClasses
 {
     public class WalkCycleServices : IWalkingCycle
     {
