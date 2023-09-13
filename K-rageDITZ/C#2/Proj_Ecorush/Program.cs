@@ -1,7 +1,11 @@
 using Microsoft.EntityFrameworkCore;
 using Proj_Ecorush.Models;
 using Proj_Ecorush.Services.Interfaces;
+<<<<<<< HEAD
 using Proj_Ecorush.Services.Services;
+=======
+using Proj_Ecorush.Services.ServiceClasses;
+>>>>>>> de7f96d34db6e186209990736cfd2e2f8ac08362
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,6 +18,16 @@ builder.Services.AddDbContext<EcoRushDbContext>
 builder.Services.AddScoped<IWalkingCycle, WalkCycleServices>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddDbContext<EcoRushDbContext>(
+    optionsAction: options => options.UseNpgsql(
+        builder.Configuration.GetConnectionString(
+            "WebApiDatabase"
+        )
+    )
+);
+
+builder.Services.AddScoped<IUser, UserService>();
 
 var app = builder.Build();
 

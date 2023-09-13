@@ -6101,25 +6101,41 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\vmuser\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+=======
+    "/Users/saimahesh/.nuget/packages/": {}
+>>>>>>> de7f96d34db6e186209990736cfd2e2f8ac08362
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\vmuser\\Desktop\\SE Shell\\EcoRush\\EcoRush\\K-rageDITZ\\C#2\\Proj_Ecorush\\Proj_Ecorush.csproj",
       "projectName": "Proj_Ecorush",
       "projectPath": "C:\\Users\\vmuser\\Desktop\\SE Shell\\EcoRush\\EcoRush\\K-rageDITZ\\C#2\\Proj_Ecorush\\Proj_Ecorush.csproj",
       "packagesPath": "C:\\Users\\vmuser\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\vmuser\\Desktop\\SE Shell\\EcoRush\\EcoRush\\K-rageDITZ\\C#2\\Proj_Ecorush\\obj\\",
+=======
+      "projectUniqueName": "/Users/saimahesh/RiderProjects/EcoRush/K-rageDITZ/C#2/Proj_Ecorush/Proj_Ecorush.csproj",
+      "projectName": "Proj_Ecorush",
+      "projectPath": "/Users/saimahesh/RiderProjects/EcoRush/K-rageDITZ/C#2/Proj_Ecorush/Proj_Ecorush.csproj",
+      "packagesPath": "/Users/saimahesh/.nuget/packages/",
+      "outputPath": "/Users/saimahesh/RiderProjects/EcoRush/K-rageDITZ/C#2/Proj_Ecorush/obj/",
+>>>>>>> de7f96d34db6e186209990736cfd2e2f8ac08362
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\vmuser\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+=======
+        "/Users/saimahesh/.nuget/NuGet/NuGet.Config"
+>>>>>>> de7f96d34db6e186209990736cfd2e2f8ac08362
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -6197,7 +6213,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
       }
     }
   }
