@@ -1,0 +1,37 @@
+.App {
+  font-family: sans-serif;
+}
+
+@font-face {
+    font-family: Josefins;
+    src: url('JosefinSansRegular-x3LYV.ttf');
+  }
+
+.FormText{
+  font-family: Josefins;
+  width: 20%;
+  height: 30%;
+  padding: 8px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 1em;
+}
+
+.Margin{
+  font-family: Josefins, monospace;
+  margin-right: 0.5em;
+}
+
+.submit{
+    width: 20%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
