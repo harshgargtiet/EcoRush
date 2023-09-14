@@ -13,6 +13,7 @@ builder.Services.AddDbContext<EcoRushDbContext>
 (optionsAction: options => options.UseNpgsql(builder.Configuration.GetConnectionString("PostgreSQLConnectionString")));
 builder.Services.AddScoped<IWalkingCycle, WalkCycleServices>();
 builder.Services.AddScoped<IAfforestation, AfforestationServices>();
+builder.Services.AddScoped<IPrevAct,PrevActServices>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 

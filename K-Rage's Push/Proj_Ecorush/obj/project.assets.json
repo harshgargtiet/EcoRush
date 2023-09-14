@@ -6107,11 +6107,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vmuser\\Desktop\\SE Shell\\EcoRush\\EcoRush\\K-Rage's Push\\Proj_Ecorush\\Proj_Ecorush.csproj",
+      "projectUniqueName": "C:\\Users\\vmuser\\Desktop\\SE Shell\\C#2\\Proj_Ecorush\\Proj_Ecorush.csproj",
       "projectName": "Proj_Ecorush",
-      "projectPath": "C:\\Users\\vmuser\\Desktop\\SE Shell\\EcoRush\\EcoRush\\K-Rage's Push\\Proj_Ecorush\\Proj_Ecorush.csproj",
+      "projectPath": "C:\\Users\\vmuser\\Desktop\\SE Shell\\C#2\\Proj_Ecorush\\Proj_Ecorush.csproj",
       "packagesPath": "C:\\Users\\vmuser\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vmuser\\Desktop\\SE Shell\\EcoRush\\EcoRush\\K-Rage's Push\\Proj_Ecorush\\obj\\",
+      "outputPath": "C:\\Users\\vmuser\\Desktop\\SE Shell\\C#2\\Proj_Ecorush\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
