@@ -53,7 +53,7 @@ namespace Proj_Ecorush.Services.Services
             return afforestations;
         }
 
-        public async Task<string> UpdateActivityAF(int activityID, Afforestation afforestation)
+        public async Task<string> UpdateActivityAF(int activityID, string StatusApproved)
         {
             var afforestation1 = await _context.Afforestations.FindAsync(activityID);
 
@@ -65,14 +65,20 @@ namespace Proj_Ecorush.Services.Services
             }
             else
             {
-                afforestation1.Evidence = afforestation.Evidence;
-                afforestation1.PlantaionLoc = afforestation.PlantaionLoc;
-                afforestation1.ActivityDate = afforestation.ActivityDate;
-                afforestation1.Ccawarded = afforestation.Ccawarded;
-                afforestation1.Status = afforestation.Status;
-                await _context.SaveChangesAsync();
+                afforestation1.Status = StatusApproved;
 
-                return "Update was successfull";
+
+
+                if (afforestation1.Status == "approved")
+                {
+                    Userinfo? foundUser = await _context.Userinfos.FindAsync(afforestation1.EmailId);
+                    if (foundUser != null)
+                    {
+                        foundUser.Ccpoints += afforestation1.Ccawarded;
+                    }
+                }
+                await _context.SaveChangesAsync();
+                return "update successfull";
             }
         }
     }

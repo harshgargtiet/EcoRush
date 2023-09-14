@@ -35,7 +35,7 @@ namespace Proj_Ecorush.Services.Services
 
         public async Task<List<WalkCycle>> GetAllActivitiesWC()
         {
-            
+
             List<WalkCycle> walkCycles = await _context.WalkCycles.ToListAsync();
             return walkCycles;
         }
@@ -43,7 +43,7 @@ namespace Proj_Ecorush.Services.Services
         public async Task<List<WalkCycle>> GetWCbyEmail(string email)
         {
             List<WalkCycle> walkCycles = await _context.WalkCycles.ToListAsync();
-            walkCycles = walkCycles.Where(wc=>wc.EmailId==email).ToList();
+            walkCycles = walkCycles.Where(wc => wc.EmailId == email).ToList();
 
             if (walkCycles == null)
             {
@@ -53,10 +53,9 @@ namespace Proj_Ecorush.Services.Services
             return walkCycles;
         }
 
-        public async Task<string> UpdateActivityWC(int activityID, WalkCycle walkCycle)
+        public async Task<string> UpdateActivityWC(int activityID, string StatusApproved)
         {
             var walkCycles = await _context.WalkCycles.FindAsync(activityID);
-
 
 
             if (walkCycles == null)
@@ -65,14 +64,39 @@ namespace Proj_Ecorush.Services.Services
             }
             else
             {
-                walkCycles.Evidence = walkCycle.Evidence;
-                walkCycles.Distance = walkCycle.Distance;
-                walkCycles.ActivityDate = walkCycle.ActivityDate;
-                walkCycles.Ccawarded = walkCycle.Ccawarded;
-                walkCycles.Status = walkCycle.Status;
+                walkCycles.Status = StatusApproved;
+
+
+
+                if (walkCycles.Status == "approved")
+                {
+                    Userinfo? foundUser = await _context.Userinfos.FindAsync(walkCycles.EmailId);
+                    if (foundUser != null)
+                    {
+                        foundUser.Ccpoints += walkCycles.Ccawarded;
+                    }
+                }
                 await _context.SaveChangesAsync();
 
-                return "Update was successfull";
+
+
+                return "update successfull";
+
+                //if (walkCycles == null)
+                //{
+                //    throw new Exception();
+                //}
+                //else
+                //{
+                //    walkCycles.Evidence = walkCycle.Evidence;
+                //    walkCycles.Distance = walkCycle.Distance;
+                //    walkCycles.ActivityDate = walkCycle.ActivityDate;
+                //    walkCycles.Ccawarded = walkCycle.Ccawarded;
+                //    walkCycles.Status = walkCycle.Status;
+                //    await _context.SaveChangesAsync();
+
+                //    return "Update was successfull";
+                //}
             }
         }
     }

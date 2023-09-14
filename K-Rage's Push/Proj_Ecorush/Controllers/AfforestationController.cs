@@ -60,11 +60,11 @@ namespace Proj_Ecorush.Controllers
         }
 
         [HttpPut]
-        public async Task<ActionResult<string>> UpdateActivityAF(int activityID, Afforestation afforestation)
+        public async Task<ActionResult<string>> UpdateActivityAF(int activityID, string StatusApproved)
         {
             try
             {
-                var activity = await _afforestation.UpdateActivityAF(activityID, afforestation);
+                var activity = await _afforestation.UpdateActivityAF(activityID, StatusApproved);
                 return Ok("Updated Successfully");
             }
             catch (ArgumentException ex)

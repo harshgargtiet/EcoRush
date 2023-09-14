@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d2AW0mrRVYfy59WqtTmcjLCRxz7jo9kkWqc/Xl8KM9bbdMnC5Li5vJvAFvCqTMQ6NpG7nYVztAlX9l9cBIytFg==",
+  "dgSpecHash": "xOOu4+cj0xy5oVPp8IgqfkUS8iRMRN6grJxav+TaRUfAXf4D0gYCrA1QkIQQ1sIb5YIWgEhbQa6Y2hUAc1gtDg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vmuser\\Desktop\\SE Shell\\C#2\\Proj_Ecorush\\Proj_Ecorush.csproj",
+  "projectFilePath": "C:\\Users\\vmuser\\Desktop\\SE Shell\\EcoRush\\EcoRush\\K-Rage's Push\\Proj_Ecorush\\Proj_Ecorush.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vmuser\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\vmuser\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.10\\microsoft.aspnetcore.openapi.7.0.10.nupkg.sha512",

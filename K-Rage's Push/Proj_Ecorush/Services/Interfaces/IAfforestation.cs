@@ -7,7 +7,7 @@ namespace Proj_Ecorush.Services.Interfaces
         Task<List<Afforestation>> GetAllActivitiesAF();
         Task<List<Afforestation>> GetAFbyEmail(string email);
         Task<string> AddNewActivityAF(Afforestation afforestation);
-        Task<string> UpdateActivityAF(int ActivityID, Afforestation afforestation);
+        Task<string> UpdateActivityAF(int activityID, string StatusApproved);
         Task<List<Afforestation>> GetAFbyStatus(string status);
     }
 }
